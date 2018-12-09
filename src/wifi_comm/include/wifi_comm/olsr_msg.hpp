@@ -7,9 +7,9 @@ namespace olsr
 {
     struct olsr_msg
     {
-        std::string msgType;  // TODO: Change to enumeration.
-        int vTime;         // validity time = C*(1+a/16)* 2^b  [in seconds]
-        int msgSize;       // Size of message in bytes
+        int msgType;            // TODO: Change to enumeration.
+        int vTime;              // validity time = C*(1+a/16)* 2^b  [in seconds]
+        int msgSize;            // Size of message in bytes
         std::string oaddr;      // Originator Address
         int timeToLive;
         int hopCount;
