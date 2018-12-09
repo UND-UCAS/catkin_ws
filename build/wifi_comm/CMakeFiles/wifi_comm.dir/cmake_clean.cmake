@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/wifi_comm.dir/src/packet.cpp.o"
+  "CMakeFiles/wifi_comm.dir/src/olsr_msg.cpp.o"
   "/home/nick/Documents/catkin_ws/devel/lib/libwifi_comm.pdb"
   "/home/nick/Documents/catkin_ws/devel/lib/libwifi_comm.so"
 )

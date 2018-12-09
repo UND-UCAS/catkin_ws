@@ -182,6 +182,33 @@ wifi_comm/fast:
 	cd /home/nick/Documents/catkin_ws/build && $(MAKE) -f wifi_comm/CMakeFiles/wifi_comm.dir/build.make wifi_comm/CMakeFiles/wifi_comm.dir/build
 .PHONY : wifi_comm/fast
 
+src/olsr_msg.o: src/olsr_msg.cpp.o
+
+.PHONY : src/olsr_msg.o
+
+# target to build an object file
+src/olsr_msg.cpp.o:
+	cd /home/nick/Documents/catkin_ws/build && $(MAKE) -f wifi_comm/CMakeFiles/wifi_comm.dir/build.make wifi_comm/CMakeFiles/wifi_comm.dir/src/olsr_msg.cpp.o
+.PHONY : src/olsr_msg.cpp.o
+
+src/olsr_msg.i: src/olsr_msg.cpp.i
+
+.PHONY : src/olsr_msg.i
+
+# target to preprocess a source file
+src/olsr_msg.cpp.i:
+	cd /home/nick/Documents/catkin_ws/build && $(MAKE) -f wifi_comm/CMakeFiles/wifi_comm.dir/build.make wifi_comm/CMakeFiles/wifi_comm.dir/src/olsr_msg.cpp.i
+.PHONY : src/olsr_msg.cpp.i
+
+src/olsr_msg.s: src/olsr_msg.cpp.s
+
+.PHONY : src/olsr_msg.s
+
+# target to generate assembly for a file
+src/olsr_msg.cpp.s:
+	cd /home/nick/Documents/catkin_ws/build && $(MAKE) -f wifi_comm/CMakeFiles/wifi_comm.dir/build.make wifi_comm/CMakeFiles/wifi_comm.dir/src/olsr_msg.cpp.s
+.PHONY : src/olsr_msg.cpp.s
+
 src/packet.o: src/packet.cpp.o
 
 .PHONY : src/packet.o
@@ -223,6 +250,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... install"
+	@echo "... src/olsr_msg.o"
+	@echo "... src/olsr_msg.i"
+	@echo "... src/olsr_msg.s"
 	@echo "... src/packet.o"
 	@echo "... src/packet.i"
 	@echo "... src/packet.s"

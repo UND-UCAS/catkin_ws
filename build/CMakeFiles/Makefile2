@@ -838,7 +838,7 @@ wifi_comm/preinstall:
 wifi_comm/CMakeFiles/wifi_comm.dir/all:
 	$(MAKE) -f wifi_comm/CMakeFiles/wifi_comm.dir/build.make wifi_comm/CMakeFiles/wifi_comm.dir/depend
 	$(MAKE) -f wifi_comm/CMakeFiles/wifi_comm.dir/build.make wifi_comm/CMakeFiles/wifi_comm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nick/Documents/catkin_ws/build/CMakeFiles --progress-num=5,6 "Built target wifi_comm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nick/Documents/catkin_ws/build/CMakeFiles --progress-num=5,6,7 "Built target wifi_comm"
 .PHONY : wifi_comm/CMakeFiles/wifi_comm.dir/all
 
 # Include target in all.
@@ -848,7 +848,7 @@ all: wifi_comm/CMakeFiles/wifi_comm.dir/all
 
 # Build rule for subdir invocation for target.
 wifi_comm/CMakeFiles/wifi_comm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/Documents/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/Documents/catkin_ws/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 wifi_comm/CMakeFiles/wifi_comm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : wifi_comm/CMakeFiles/wifi_comm.dir/rule
