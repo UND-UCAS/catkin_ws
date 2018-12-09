@@ -15,9 +15,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin_generated/order_packages.cmake"
   "networking/catkin_generated/ordered_paths.cmake"
   "networking/catkin_generated/package.cmake"
+  "wifi_comm/catkin_generated/ordered_paths.cmake"
+  "wifi_comm/catkin_generated/package.cmake"
   "/home/nick/Documents/catkin_ws/src/CMakeLists.txt"
   "/home/nick/Documents/catkin_ws/src/networking/CMakeLists.txt"
   "/home/nick/Documents/catkin_ws/src/networking/package.xml"
+  "/home/nick/Documents/catkin_ws/src/wifi_comm/CMakeLists.txt"
+  "/home/nick/Documents/catkin_ws/src/wifi_comm/package.xml"
   "/opt/ros/kinetic/share/catkin/cmake/../package.xml"
   "/opt/ros/kinetic/share/catkin/cmake/all.cmake"
   "/opt/ros/kinetic/share/catkin/cmake/assert.cmake"
@@ -148,6 +152,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "catkin_generated/stamps/Project/order_packages.cmake.em.stamp"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "networking/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "wifi_comm/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -174,4 +179,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "networking/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
   "networking/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake"
   "networking/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake"
+  "wifi_comm/CMakeFiles/wifi_comm.dir/DependInfo.cmake"
   )

@@ -453,6 +453,19 @@ std_msgs_generate_messages_py/fast:
 	$(MAKE) -f networking/CMakeFiles/std_msgs_generate_messages_py.dir/build.make networking/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
+#=============================================================================
+# Target rules for targets named wifi_comm
+
+# Build rule for target.
+wifi_comm: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wifi_comm
+.PHONY : wifi_comm
+
+# fast build rule for target.
+wifi_comm/fast:
+	$(MAKE) -f wifi_comm/CMakeFiles/wifi_comm.dir/build.make wifi_comm/CMakeFiles/wifi_comm.dir/build
+.PHONY : wifi_comm/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -488,6 +501,7 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... wifi_comm"
 .PHONY : help
 
 

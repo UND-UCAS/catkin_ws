@@ -34,3 +34,11 @@
 /home/nick/Documents/catkin_ws/build/networking/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 /home/nick/Documents/catkin_ws/build/networking/CMakeFiles/roscpp_generate_messages_nodejs.dir
 /home/nick/Documents/catkin_ws/build/networking/CMakeFiles/std_msgs_generate_messages_py.dir
+/home/nick/Documents/catkin_ws/build/wifi_comm/CMakeFiles/install/strip.dir
+/home/nick/Documents/catkin_ws/build/wifi_comm/CMakeFiles/install/local.dir
+/home/nick/Documents/catkin_ws/build/wifi_comm/CMakeFiles/test.dir
+/home/nick/Documents/catkin_ws/build/wifi_comm/CMakeFiles/list_install_components.dir
+/home/nick/Documents/catkin_ws/build/wifi_comm/CMakeFiles/wifi_comm.dir
+/home/nick/Documents/catkin_ws/build/wifi_comm/CMakeFiles/rebuild_cache.dir
+/home/nick/Documents/catkin_ws/build/wifi_comm/CMakeFiles/edit_cache.dir
+/home/nick/Documents/catkin_ws/build/wifi_comm/CMakeFiles/install.dir

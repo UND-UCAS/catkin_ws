@@ -1,0 +1,8 @@
+prefix=/home/nick/Documents/catkin_ws/devel
+
+Name: wifi_comm
+Description: Description of wifi_comm
+Version: 0.0.0
+Cflags: -I/home/nick/Documents/catkin_ws/src/wifi_comm/include
+Libs: -L/home/nick/Documents/catkin_ws/devel/lib -lwifi_comm
+Requires: 

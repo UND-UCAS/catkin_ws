@@ -814,6 +814,61 @@ clean: networking/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory wifi_comm
+
+# Convenience name for "all" pass in the directory.
+wifi_comm/all: wifi_comm/CMakeFiles/wifi_comm.dir/all
+
+.PHONY : wifi_comm/all
+
+# Convenience name for "clean" pass in the directory.
+wifi_comm/clean: wifi_comm/CMakeFiles/wifi_comm.dir/clean
+
+.PHONY : wifi_comm/clean
+
+# Convenience name for "preinstall" pass in the directory.
+wifi_comm/preinstall:
+
+.PHONY : wifi_comm/preinstall
+
+#=============================================================================
+# Target rules for target wifi_comm/CMakeFiles/wifi_comm.dir
+
+# All Build rule for target.
+wifi_comm/CMakeFiles/wifi_comm.dir/all:
+	$(MAKE) -f wifi_comm/CMakeFiles/wifi_comm.dir/build.make wifi_comm/CMakeFiles/wifi_comm.dir/depend
+	$(MAKE) -f wifi_comm/CMakeFiles/wifi_comm.dir/build.make wifi_comm/CMakeFiles/wifi_comm.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nick/Documents/catkin_ws/build/CMakeFiles --progress-num=5,6 "Built target wifi_comm"
+.PHONY : wifi_comm/CMakeFiles/wifi_comm.dir/all
+
+# Include target in all.
+all: wifi_comm/CMakeFiles/wifi_comm.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+wifi_comm/CMakeFiles/wifi_comm.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/Documents/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 wifi_comm/CMakeFiles/wifi_comm.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/Documents/catkin_ws/build/CMakeFiles 0
+.PHONY : wifi_comm/CMakeFiles/wifi_comm.dir/rule
+
+# Convenience name for target.
+wifi_comm: wifi_comm/CMakeFiles/wifi_comm.dir/rule
+
+.PHONY : wifi_comm
+
+# clean rule for target.
+wifi_comm/CMakeFiles/wifi_comm.dir/clean:
+	$(MAKE) -f wifi_comm/CMakeFiles/wifi_comm.dir/build.make wifi_comm/CMakeFiles/wifi_comm.dir/clean
+.PHONY : wifi_comm/CMakeFiles/wifi_comm.dir/clean
+
+# clean rule for target.
+clean: wifi_comm/CMakeFiles/wifi_comm.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.
