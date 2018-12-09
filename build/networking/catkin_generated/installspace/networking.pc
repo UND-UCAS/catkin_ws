@@ -1,0 +1,8 @@
+prefix=/home/nick/Documents/catkin_ws/install
+
+Name: networking
+Description: Description of networking
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nick/Documents/catkin_ws/install/lib 
+Requires: 
