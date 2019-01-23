@@ -4,5 +4,7 @@
 wifi_comm/CMakeFiles/wifi_comm.dir/src/olsr_msg.cpp.o: /home/nick/Documents/catkin_ws/src/wifi_comm/include/wifi_comm/olsr_msg.hpp
 wifi_comm/CMakeFiles/wifi_comm.dir/src/olsr_msg.cpp.o: /home/nick/Documents/catkin_ws/src/wifi_comm/src/olsr_msg.cpp
 
+wifi_comm/CMakeFiles/wifi_comm.dir/src/packet.cpp.o: /home/nick/Documents/catkin_ws/src/wifi_comm/include/wifi_comm/olsr_msg.hpp
+wifi_comm/CMakeFiles/wifi_comm.dir/src/packet.cpp.o: /home/nick/Documents/catkin_ws/src/wifi_comm/include/wifi_comm/packet.hpp
 wifi_comm/CMakeFiles/wifi_comm.dir/src/packet.cpp.o: /home/nick/Documents/catkin_ws/src/wifi_comm/src/packet.cpp
 
